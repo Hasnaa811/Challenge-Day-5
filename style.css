@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #d9a9ea;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #1b1e46;
+    display: flex;
+    position: fixed;
+    height: 10vh ;
+    min-width: 1200px;
+    width: 100%;
+}
+
+
+body{
+    background-color: #18112f;
+    margin: auto;
+    min-width: 1200px;
+}
+
+footer{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+.social{
+    height: 20vh;
+    
+    display: inline-flex;
+}
+.navigation{
+    margin-left: 80px;
+    height: 10vh;
+    display: inline-flex;
+    
+}
+
+.logo{
+    border: 1px solid black;
+    display:inline-flex
+    align-content: center;
+    width:auto;
+}
+
+.navigation a {
+    float: left;
+    text-align: center;
+    padding: 17px 30px;
+    text-decoration: none;
+    font-size: 20px;
+
+  }
+
+  .navigation a:hover {
+    background-color: #d9a9ea;
+    color: #18112f;
+  }
+
+
+a{
+    overflow: hidden;
+}
+
+.welcome{
+    background-color: #d9a9ea;
+    font-weight: 900;
+    font-size:x-large;
+    /* display:inline-flex; */
+}
+h3{
+    color: #863e75;
+    text-align: center;
+}
+p{
+    color: #18112f;
+    font-size:medium;
+    text-align: center;
+}
+.main {
+    display: flex;
+    justify-content:flex-end;
+    height: 100vh;
+
+}
+.logo img{
+    height: 100%;
+    display: inline-flex;
+    position: relative;
+
+}
+.main img {
+    display: inline-flex;
+    width: 80%;
+}
+
+.side {
+    display: inline-flex;
+    width:20%
+}
+
+.freePic{
+    display: flex;
+    border: 2px solid #d9a9ea;
+    height: 50vh;
+    width: 60vh;
+    position: absolute;
+    transform: translateY(80%) translateX(-10%);
+    opacity: 0.5;
+    border-radius: 5px;
+
+}
+
+.LearnMore{
+
+    background-color:#863e75;
+    opacity: 1;
+    display: flex;
+    height: 10vh;
+    width: 30vh;
+    position: absolute;
+    transform: translateY(850%) translateX(-80%);
+    text-align: center;
+    border-radius: 3px;
+    
+}
+
+.LearnMore a {
+    text-align: center;
+    justify-content: center;
+    color: #18112f;
+    font-weight: 900;
+    font-size: larger;
+    margin: auto;
+    text-decoration: none;
+    
+}
+
+
+.foot {
+    display:flex;
+    background-color: #863e75;
+    padding: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh
+}
+
+.feet1 .feet2 .feet3 {
+    display: inline-flex;
+    color: #18112f;
+    width: 25%;
+
+}
+
+.feet3{
+    display: none;
+}
+.side {
+    background-color: #1b1e46;
+}
